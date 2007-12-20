@@ -11,6 +11,7 @@ License:	GPL
 Group:		Networking/Other
 URL:		http://ap-utils.polesye.net/
 Buildrequires:	libncurses-devel
+Buildroot:	%_tmppath/%name-buildroot
 
 %description
 Wireless Access Point Utilities for Unix is a set of utilities 

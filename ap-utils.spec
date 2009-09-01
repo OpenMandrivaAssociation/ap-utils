@@ -3,7 +3,7 @@
 Summary:	Configure and monitor Wireless Access Points 
 Name:		ap-utils
 Version:	1.5.1
-Release:	%mkrel 0.%{prerelease}.2
+Release:	%mkrel 0.%{prerelease}.3
 
 Source:		http://prdownloads.sourceforge.net/ap-utils/%name-%{version}%{prerelease}.tar.bz2
 

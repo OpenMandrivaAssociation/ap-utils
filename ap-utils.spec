@@ -22,15 +22,13 @@ to configure and monitor Wireless Access Points under Unix.
 %setup -q -n %name-%{version}%{prerelease}
 
 %build
-
+%define Werror_cflags %nil
 %configure2_5x
-
 %make
 
 %install
 rm -Rf $RPM_BUILD_ROOT
-
-%makeinstall
+%makeinstall_std
 
 # remove french translation, it is prevent correct usage of ap-config
 rm $RPM_BUILD_ROOT%{_datadir}/locale/fr/LC_MESSAGES/ap-utils.mo

@@ -6,7 +6,7 @@ Version: 1.5.1
 Release: 0.%{prerelease}.5
 License: GPL
 Group: Networking/Other
-URL: http://ap-utils.polesye.net/
+URL: https://ap-utils.polesye.net/
 Source: http://prdownloads.sourceforge.net/ap-utils/%{name}-%{version}%{prerelease}.tar.bz2
 BuildRequires: pkgconfig(ncurses)
 
